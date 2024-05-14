@@ -1,0 +1,57 @@
+html {
+	min-height: 100%;
+}
+body {
+	min-height: 100%;
+	background-image: linear-gradient(to right bottom, green, white, blue);
+}
+h1 {
+	font-family: Georgia, 'Times New Roman';
+	font-size: 50px;
+	font-weight: 500;
+}
+h2 {
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: 500;
+}
+.calosc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.zdjecia,
+.napisy {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.napisy {
+	margin-top: 20px;
+}
+
+.lewe,
+.srodek,
+.prawe {
+	width: 500px;
+	height: 500px;
+	margin: 0 25px;
+	margin-top: 70px;
+}
+
+.napisLewy,
+.napisSrodkowy,
+.napisPrawy {
+	width: 500px;
+	height: auto;
+	margin: 0 25px;
+	text-align: center;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
