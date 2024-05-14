@@ -59,6 +59,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	})
 	powort.addEventListener('click', () => {
-		window.location.href = 'GaleriaZdjec.html'
+		window.location.href = 'index.html'
 	})
 })
